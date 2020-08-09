@@ -20,16 +20,6 @@ public class SpringBootExcelCsvAndPdfApplication {
 		irvr.setViewClass(JstlView.class);
 		irvr.setPrefix("/WEB-INF/pages/");
 		irvr.setSuffix(".jsp");
-	//	irvr.setOrder(2);
 		return irvr;
 	}
-
-	/*
-	 * @Bean("excelView") public ViewResolver viewResolver2() {
-	 * 
-	 * ResourceBundleViewResolver rbvr = new ResourceBundleViewResolver(); //
-	 * rbvr.setBasename("views"); rbvr.setOrder(1); return rbvr;
-	 * 
-	 * }
-	 */
 }
