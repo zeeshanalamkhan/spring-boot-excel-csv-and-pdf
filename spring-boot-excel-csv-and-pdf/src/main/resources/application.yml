@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-application
+      datasource:    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: manager
+    
+  jpa:    database: ORACLE
+    generate-ddl: true
+    show-sql: true
+    hibernate:      ddl-auto: update
+        server:  port: 8082
